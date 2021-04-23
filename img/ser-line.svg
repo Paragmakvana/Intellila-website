@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="202.5" height="10" viewBox="0 0 202.5 10">
+  <g id="ser-line" transform="translate(0 -1)">
+    <line id="Line_2" data-name="Line 2" x2="197" transform="translate(5.5 5.5)" fill="none" stroke="#003572" stroke-width="1"/>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(0 1)" fill="#fefefe" stroke="#003572" stroke-width="1">
+      <circle cx="5" cy="5" r="5" stroke="none"/>
+      <circle cx="5" cy="5" r="4.5" fill="none"/>
+    </g>
+  </g>
+</svg>
