@@ -226,7 +226,7 @@ a{
 }
 .blog1{
     position: absolute;
-    right: -35px;
+    right: 0px;
     top: -50px;
 }
 .client-inner{
@@ -355,7 +355,7 @@ footer{
     padding: 10px 0px;
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1400px){
     .home-hero-left h1{
         font-size: 2.5em;
     }
@@ -424,7 +424,7 @@ footer{
 }
 @media (max-width: 750px){
     .home-hero-left h1{
-        font-size: 1.5em !important;
+        font-size: 1.7em !important;
     }
     .home-hero-right img{
         width: 100% !important;
