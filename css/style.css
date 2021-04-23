@@ -59,6 +59,9 @@ a{
 }
 .home-hero-left h1{
     font-size: 3em;
+    color: #ffffff;
+}
+.grey{
     color: var(--secondary-color);
 }
 .home-hero-right img{
@@ -184,6 +187,16 @@ a{
 .tech p{
     font-size: 1.1em;
     margin-bottom: 0px;
+}
+.tech img:hover{
+    filter: invert(0.5)
+    sepia(2)
+    hue-rotate(200deg)
+    saturate(2)
+    brightness(0);
+}
+.service-title svg:hover{
+    width: 47px;
 }
 /* tech-stack end*/
 
