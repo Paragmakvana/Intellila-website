@@ -61,11 +61,26 @@ a{
     font-size: 3em;
     color: #ffffff;
 }
+@media (max-width: 1460px){
+    .home-hero-left h1{
+        font-size: 2.5em !important;
+    }
+}
+@media (max-width: 1260px){
+    .home-hero-left h1{
+        font-size: 2em !important;
+    }
+}
+@media (max-width: 1060px){
+    .home-hero-left h1{
+        font-size: 1.7em !important;
+    }
+}
 .grey{
     color: var(--secondary-color);
 }
 .home-hero-right img{
-    width: 100%;
+    width: 110%;
 }
 /* home hero section end*/
 
@@ -195,9 +210,9 @@ a{
     saturate(2)
     brightness(0);
 }
-.service-title svg:hover{
+/* .service-title svg:hover{
     width: 47px;
-}
+} */
 /* tech-stack end*/
 
 /* project-section */
@@ -369,9 +384,6 @@ footer{
 }
 
 @media (max-width: 1400px){
-    .home-hero-left h1{
-        font-size: 2.5em;
-    }
     .wwa2-f h1{
         font-size: 2em;
         padding-bottom: 5px;
@@ -398,9 +410,6 @@ footer{
     }
 }
 @media (max-width: 1100px){
-    .home-hero-left h1{
-        font-size: 2.2em;
-    }
     .wwa2-f h1{
         font-size: 1.5em;
         padding-bottom: 5px;
