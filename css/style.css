@@ -285,27 +285,27 @@ a{
 
 
 .contact-section{
+    padding: 80px 0px;
     position: relative;
+    background: #2D43BA;
 }
 .blog2{
     position: absolute;
     left: -35px;
     top: -80px;
 }
-.contact-left{
-    background: #2D43BA;
-}
-.contact-right{
-    background: #A6D0E6;
-}
-.contact-section{
+.contact-s{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 100px;
 }
 .contact-left{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    padding: 80px 0px;
+    justify-content: center;
+    align-items: center; */
 }
 .contact-det h1{
     font-size: 2.5em;
@@ -315,14 +315,19 @@ a{
     font-size: 1.1em;
     color: var(--secondary-color);
 }
+.say h1{
+    font-size: 2.5em;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
 .contact-q{
     display: flex;
     flex-direction: row;
-    padding: 20px;
-    background: #2C41B6;
+    padding: 0px 0px;
+    /* background: #2C41B6; */
     border-radius: 15px;
     margin-top: 20px;
-    width: 400px;
+    /* width: 400px; */
 }
 .contact-q img{
     margin-right: 20px;
@@ -331,11 +336,7 @@ a{
     color: var(--secondary-color);
 }
 .contact-right{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+    padding: 0px 50px;
 }
 .cont-r{
     flex-direction: column;
@@ -358,14 +359,14 @@ a{
   textarea {
     width: 100%;
     padding: 15px 15px;
-    border: none;
+    border: 1px solid #ffffff;
     border-radius: 6px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    background: var(--secondary-color);
-    color: rgb(37, 37, 37);
+    background: transparent;
+    color: #fff;
     outline: none;
   }
   textarea {
@@ -375,8 +376,21 @@ a{
     border: none;
     padding: 15px 20px;
     border-radius: 25px;
-    background: var(--primary-color);
+    background: transparent;
+    border: 1px solid #ffffff;
     color: #fff;
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #f0f0f0;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #f0f0f0;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #f0f0f0;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #f0f0f0;
   }
 footer{
     text-align: center;
